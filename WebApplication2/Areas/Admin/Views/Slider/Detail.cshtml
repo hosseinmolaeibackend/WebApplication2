@@ -1,0 +1,30 @@
+﻿@model WebApplication2.Models.Catalog.SliderModel
+
+@{
+    Layout = "_AdminLayout";
+}
+
+
+<h2 class="fs-2 text-align-center fw-bolder mb-2">
+    @Model.TitleSlider
+</h2>
+<div class="d-flex flex-row justify-content-between mb-3">
+    <div class="d-flex flex-column">
+     
+        <h3 class="fw-bolder text-align-center text-decoration-underline my-2 p-2">
+            @Model.UrlSlider
+        </h3>
+
+        <p class="text-align-center fw-bold my-2 p-2 bg-dark opacity-75 text-light">
+             @Model.DescriptionSlider
+        </p>
+
+    </div>
+    <div class="border border-2 border-dark text-align-center">
+         <img style="border: solid #000 2px; width: 25%;" src="@(PathTools.SliderImage + Model.ImageSlider)" alt="@Model.UrlSlider"/>
+    </div>
+</div>
+<div class="text-center mt-3" style="margin-top: 25%;">
+   <a asp-area="Admin" asp-controller="Slider" asp-action="EditSlide" asp-route-id="@Model.Id"
+      class="btn btn-warning mt-2 "> Edit</a> 
+</div>

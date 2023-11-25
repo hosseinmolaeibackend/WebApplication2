@@ -1,0 +1,16 @@
+body{
+    color: #fff;
+    background-image: url("./sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input{
+    background: rgb(255, 255, 255,0.2) !important;
+}
+input[type=checkbox]{
+    background-color: black !important;
+}
+nav,footer{
+    display: none;
+}

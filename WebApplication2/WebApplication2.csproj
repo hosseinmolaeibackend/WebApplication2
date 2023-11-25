@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Refrences\_FooterRefrences.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Refrences\_HeaderRefrences.cshtml" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\site.js" />
+      <_ContentIncludedByDefault Remove="Views\Faqs\FaqsIndex.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Admin.cshtml" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\AdminScripts\beyond.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\AdminScripts\bootstrap.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\AdminScripts\jquery-3.3.1.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\AdminScripts\jquery.slimscroll.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\js\AdminScripts\skins.js" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Slider\Creat.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Slider\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Product\CreatProduct.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Product\Detail.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Product\EditProduct.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Product\ShowProductsAdmin.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="7.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="7.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.10" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.0.2" />
+      <PackageReference Include="System.Drawing.Common" Version="8.0.0-rc.1.23419.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Areas\Users\Data\" />
+      <Folder Include="Areas\Users\Models\" />
+      <Folder Include="wwwroot\Admin\" />
+      <Folder Include="wwwroot\shared\images\" />
+    </ItemGroup>
+
+</Project>

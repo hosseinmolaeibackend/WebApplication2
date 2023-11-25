@@ -1,0 +1,39 @@
+﻿@using WebApplication2.ViewModels.Account
+@model UserViewModel
+@{
+    ViewData["Title"] = "Sing in";
+    Layout = "_LayoutForRegister";
+}
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/Styles/Register form.css">
+}
+
+<h1 class="d-flex flex-row justify-content-center text-light fw-bold pt-4 mt-4">@ViewData["Title"]</h1>
+<div>
+    <form asp-controller="Account" asp-action="Register" method="post" class=" d-flex flex-column align-items-center ">
+        <div class="form-group mb-3 col-5">
+            <label for="InputEmail" class="text-light">Username</label>
+            <input asp-for="Username" class="form-control" id="InputName" aria-describedby="NameHelpId" placeholder="">
+            <span id="NameHelpId" asp-validation-for="Username" class="form-text fw-bolder text-bg-light text-success"></span>
+        </div>
+        <div class="form-group mb-3 col-5">
+            <label for="InputEmail" class="text-light">Password</label>
+            <input asp-for="Password" class="form-control" id="InputPassword" aria-describedby="PasswordHelpId" placeholder="">
+            <span id="PasswordHelpId" asp-validation-for="Password" class="form-text fw-bolder text-bg-light text-success"></span>
+        </div>
+        <div class="form-group mb-3 col-5">
+            <label for="InputEmail" class="text-light">Confirm Password</label>
+            <input asp-for="ConfirmPassword" class="form-control" id="InputPassword" aria-describedby="PasswordHelpId" placeholder="">
+            <span id="PasswordHelpId" asp-validation-for="ConfirmPassword" class="form-text fw-bolder text-bg-light text-success"></span>
+        </div>
+        <div>
+            <button class="btn btn-outline-success text-light fw-bold" type="submit" value="save">submit</button>
+        </div>
+    </form>
+    
+</div>
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

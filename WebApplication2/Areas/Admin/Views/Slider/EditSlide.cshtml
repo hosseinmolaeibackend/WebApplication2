@@ -1,0 +1,44 @@
+﻿@using WebApplication2.ViewModels.Slider
+@model EditSliderViewModel
+
+
+<div class="col-lg-6 col-sm-6 col-xs-12">
+    <div class="widget">
+        <div class="widget-header bordered-bottom bordered-blue">
+            <span class="widget-caption">Edit Form</span>
+        </div>
+        <div class="widget-body">
+            <div>
+                <form asp-area="Admin" asp-controller="Slider" asp-action="EditSlide" asp-route-id="" enctype="multipart/form-data">
+                    <input asp-for="Id" type="hidden" class="form-control">
+                    <input asp-for="ImageName" type="hidden" class="form-control">
+                    <div class="form-group">
+                        <label for="TitleSlider">TitleSlider</label>
+                        <input asp-for="TitleSlider" type="text" class="form-control">
+                        <span asp-validation-for="TitleSlider"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="UrlSlider">UrlSlider</label>
+                        <input asp-for="UrlSlider" type="url" class="form-control">
+                        <span asp-validation-for="UrlSlider"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="DescriptionSlider">DescriptionSlider</label>
+                        <input asp-for="DescriptionSlider" type="text" class="form-control">
+                        <span asp-validation-for="DescriptionSlider"></span>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img ImageFile="1" width="75px" height="75px" src="@(PathTools.SliderImage + Model.ImageName)"/>
+                        <div class="form-group">
+                            <label for="ImageSlider">Image</label>
+                            <input ImageInput="1"  type="file" asp-for="ImageSlider" class="form-control">
+                            <span asp-validation-for="ImageSlider"></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-blue">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

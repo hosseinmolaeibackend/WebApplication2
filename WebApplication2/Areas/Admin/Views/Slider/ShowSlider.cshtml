@@ -1,0 +1,85 @@
+﻿@using WebApplication2.ViewModels.Slider
+@model FilterSliderViewModel
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="well with-header with-footer">
+    <div class="header bordered-success d-flex flex-row justify-content-evenly">
+        <a asp-area="Admin" asp-controller="Slider" asp-action="creatSlider"
+           class="btn btn-success">
+            Creat New Slide
+        </a>
+         <form role="form" class="row">
+                    <input asp-for="TitleSlider"  placeholder="title"/>
+                    <input asp-for="UrlSlider"  placeholder="url"/>
+                    <button type="submit" class="btn btn-success">
+                        <span class="typcn typcn-zoom-outline"></span>
+                    </button>
+         </form>
+    </div>
+    <div class="table-scrollable">
+        
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+                <th scope="col" style="width:450px !important">
+                    پیش نمایش
+                </th>
+                <th scope="col">
+                    تیتر
+                </th>
+                <th scope="col">
+                    توضیحات
+                </th>
+                <th scope="col">
+                  ابزارها
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+                @if (Model.Entities.Any()&& Model!=null)
+                {
+                    @foreach (var slide in Model.Entities)
+                    {
+                        <tr>
+                            <td>
+                                <img src="@(PathTools.SliderImageThumbnail + slide.ImageSlider)"  class="img-fluid border border-1 border-dark" alt="@slide.UrlSlider"/>
+                            </td>
+                            <td>
+                                @slide.TitleSlider
+                            </td>
+                            <td>
+                                @slide.DescriptionSlider
+                            </td>
+                            <td>
+                                <a class="btn btn-danger">
+                                    <i class="glyphicon glyphicon-trash "></i>
+                                </a>
+                                <a asp-area="Admin" asp-controller="Slider"  asp-action="EditSlide"
+                                   asp-route-id="@(slide.Id)" title="edit"  class="btn btn-warning">
+                                    <li class="glyphicon glyphicon-edit "></li>
+                                </a>
+                                <a asp-area="Admin" asp-controller="Slider"  asp-action="Detail"
+                                   asp-route-id="@(slide.Id)" title="detail"  class="btn btn-info">
+                                    <li class="glyphicon glyphicon-minus-sign"></li>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <div class="alert alert-warning">
+                        <li class="glyphicon glyphicon-warning-sign"></li>
+                        <p>Slider DataBase is Null Refrences. 505 Error</p>
+                    </div>
+                }
+               
+            </tbody>
+        </table>
+    </div>
+    <div class="footer">
+        <a href="#" class="btn btn-darkorange">Delete All</a>
+    </div>
+</div>

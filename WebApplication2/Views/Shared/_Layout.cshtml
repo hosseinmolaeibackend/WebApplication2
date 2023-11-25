@@ -1,0 +1,24 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    @await RenderSectionAsync("Styles",false)
+    <partial name="Refrences/_HeaderRefrences"/>
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+@await Component.InvokeAsync("SiteHeader")
+<div class="container">
+
+        @RenderBody()
+    
+</div>
+
+@await Component.InvokeAsync("SiteFooter")
+<partial name="Refrences/_FooterRefrences"/>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

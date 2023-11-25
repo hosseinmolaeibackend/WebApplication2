@@ -1,0 +1,7 @@
+body{
+    color: #fff;
+    background-image: url("./sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

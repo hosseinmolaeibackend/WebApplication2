@@ -1,0 +1,169 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication2
+build_property.RootNamespace = WebApplication2
+build_property.ProjectDir = E:\Rider Project\WebApplication2\WebApplication2\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Rider Project\WebApplication2\WebApplication2
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Shared/AdminPartial/_chatbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluUGFydGlhbFxfY2hhdGJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Shared/AdminPartial/_sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluUGFydGlhbFxfc2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Shared/Refrences/_AdminFooterRefrences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFJlZnJlbmNlc1xfQWRtaW5Gb290ZXJSZWZyZW5jZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Shared/Refrences/_AdminHeaderRefrences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFJlZnJlbmNlc1xfQWRtaW5IZWFkZXJSZWZyZW5jZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Slider/creatSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXGNyZWF0U2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Slider/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Slider/EditSlide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXEVkaXRTbGlkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Slider/ShowSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyXFNob3dTbGlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Tract/CreatTract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhY3RcQ3JlYXRUcmFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Tract/DeleteTract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhY3RcRGVsZXRlVHJhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Tract/DetailsTract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhY3RcRGV0YWlsc1RyYWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Tract/EditTract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhY3RcRWRpdFRyYWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/Tract/Tract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhY3RcVHJhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Users/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Users/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Areas/Users/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Article/FAQS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZVxGQVFTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Product/ShowProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG93UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/Components/SiteAdminFooter/SiteAdminFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2l0ZUFkbWluRm9vdGVyXFNpdGVBZG1pbkZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/Components/SiteAdminHeader/SiteAdminHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2l0ZUFkbWluSGVhZGVyXFNpdGVBZG1pbkhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/Components/SiteFooter/SiteFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2l0ZUZvb3RlclxTaXRlRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/Components/SiteHeader/SiteHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2l0ZUhlYWRlclxTaXRlSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/Refrences/_FooterRefrences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZnJlbmNlc1xfRm9vdGVyUmVmcmVuY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/Refrences/_HeaderRefrences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZnJlbmNlc1xfSGVhZGVyUmVmcmVuY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/_LayoutForRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGb3JSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/_Poster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3N0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Rider Project/WebApplication2/WebApplication2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-amt9qciysm

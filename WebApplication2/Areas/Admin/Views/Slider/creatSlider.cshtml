@@ -1,0 +1,40 @@
+﻿@using WebApplication2.ViewModels.Slider
+@model SliderViewModel
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="col-lg-6 col-sm-6 col-xs-12">
+    <div class="widget">
+        <div class="widget-header bordered-bottom bordered-blue">
+            <span class="widget-caption">Creat Form</span>
+        </div>
+        <div class="widget-body">
+            <div>
+                <form asp-area="Admin" asp-controller="Slider" asp-action="creatSlider" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="TitleSlider">TitleSlider</label>
+                        <input asp-for="TitleSlider" type="text" class="form-control" >
+                    </div>
+                    <div class="form-group">
+                        <label for="UrlSlider">UrlSlider</label>
+                        <input asp-for="UrlSlider" type="url" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="DescriptionSlider">DescriptionSlider</label>
+                        <input asp-for="DescriptionSlider" type="text"  class="form-control">
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img ImageFile="1" width="250px" height="150px" src="~/Images/about-us-image.jpg" alt="avatar"/>
+                         <div class="form-group">
+                             <label for="DescriptionSlider">DescriptionSlider</label>
+                             <input ImageInput="1" asp-for="ImageSlider" type="file" class="form-control">
+                         </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-blue">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
